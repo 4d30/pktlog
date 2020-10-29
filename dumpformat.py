@@ -12,7 +12,7 @@ except:
 	sys.exit(0)
 
 try:
-	dump = subprocess.Popen(['tcpdump','-n','-s0','-c4096','-i','bge0'],
+	dump = subprocess.Popen(['tcpdump','-n','-s0','-c2048','-i','bge0'],
 	    stdout=subprocess.PIPE)
 
 except:
