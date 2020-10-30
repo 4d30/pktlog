@@ -1,5 +1,9 @@
 #!/usr/pkg/bin/python3.7
 
+# Connects to PostgreSQL server
+# Starts a tcpdump
+# Pipes tcpdump output into psqldb
+
 import sys
 import subprocess as subp
 import psycopg2 as pcg2
